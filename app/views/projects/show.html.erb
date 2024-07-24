@@ -1,0 +1,18 @@
+
+<div class="jumbotron" >
+  <%= render @project %>
+  <hr class="my-4">
+  <div>
+  <% if current_user.id == @project_user_id %>
+  <i class="fa-solid fa-pen"></i>
+  <%= link_to "Edit Project", edit_project_path(@project), class:"btn btn-secondary" %> 
+  <% end %>
+  <%= link_to "Back", projects_path, class:"btn btn-dark" %>
+    
+    <br><br>
+    <% if current_user.id == @project_user_id %>
+      <%= button_to "Destroy this project", @project, method: :delete, class:"btn btn-danger" %>
+    <% end %>
+  </div>
+</div>
+
