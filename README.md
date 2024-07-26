@@ -17,7 +17,7 @@ Make sure you have the following installed on your machine.
 Clone the project into you local machine.
 1. Clone the repository:
    ```bash
-   git clone https://git.us.qwasar.io/my_basecamp_1_168726_8ri9bm/my_basecamp_1.git
+   git clone https://github.com/Saminu3110c/my_basecamp_1
    
 2. Navigate to the project directory
     ```bash
