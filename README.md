@@ -45,11 +45,11 @@ Visit the link:
     ```
 
 You can sign up with a new account or use the following admin details:
-Email:
+1. Email:
     ```
     saminu3110c@gmail.com
     ```
-Password:
+2. Password:
     ```
     '123456'
     ```
